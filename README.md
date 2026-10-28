@@ -19,7 +19,7 @@ app-support/    리다이렉트 전용. 예전 주소 /app-support/… 를 같�
 
 | 서비스 | 개인정보 처리방침 | 고객 지원 |
 |---|---|---|
-| 드래그 넘버 (Drag Number) | [ko](https://duruwap.github.io/support/drag-number/privacy/ko.html) · [en](https://duruwap.github.io/support/drag-number/privacy/en.html) | [ko](https://duruwap.github.io/support/drag-number/support/ko.html) · [en](https://duruwap.github.io/support/drag-number/support/en.html) |
+| 드래그 넘버 (Drag Number) | [ko](https://duruwap.github.io/support/drag-number/privacy/ko.html) · [en](https://duruwap.github.io/support/drag-number/privacy/en.html) · [cn](https://duruwap.github.io/support/drag-number/privacy/cn.html) · [jp](https://duruwap.github.io/support/drag-number/privacy/jp.html) | [ko](https://duruwap.github.io/support/drag-number/support/ko.html) · [en](https://duruwap.github.io/support/drag-number/support/en.html) |
 | 일색오목 (One-Color Gomoku) | [ko](https://duruwap.github.io/support/omok/privacy/ko.html) · [en](https://duruwap.github.io/support/omok/privacy/en.html) · [zh](https://duruwap.github.io/support/omok/privacy/zh.html) · [ja](https://duruwap.github.io/support/omok/privacy/ja.html) | [ko](https://duruwap.github.io/support/omok/support/ko.html) · [en](https://duruwap.github.io/support/omok/support/en.html) · [zh](https://duruwap.github.io/support/omok/support/zh.html) · [ja](https://duruwap.github.io/support/omok/support/ja.html) |
 
 스토어(App Store Connect · Google Play Console)의 지원 URL·개인정보 처리방침 URL은 위 `/support/…` 주소를 사용합니다.
