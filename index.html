@@ -1,13 +1,81 @@
 <!doctype html>
-<html>
+<html lang="ko">
 <head>
-<meta charset="utf-8">
-<title>Duruwap</title>
-<link rel="canonical" href="https://duruwap.github.io/support/">
-<meta http-equiv="refresh" content="0; url=/support/">
-<script>location.replace('/support/' + location.search + location.hash);</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2f4be0">
+  <meta name="color-scheme" content="light dark">
+  <title>Duruwap — 일상을 위한 심플한 앱</title>
+  <meta name="description" content="Duruwap builds simple, thoughtful apps that make everyday life a little easier. Clean design, no clutter, just the tools you actually need.">
+  <link rel="canonical" href="https://duruwap.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Duruwap">
+  <meta property="og:title" content="Duruwap">
+  <meta property="og:description" content="Simple apps for everyday life.">
+  <meta property="og:url" content="https://duruwap.github.io/">
+  <meta property="og:image" content="https://duruwap.github.io/support/assets/brand/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="/support/fonts/pretendard/pretendardvariable-dynamic-subset.css">
+  <link rel="stylesheet" href="/support/fonts/pretendard-jp/pretendardvariable-jp-dynamic-subset.css">
+  <link rel="stylesheet" href="/support/assets/style.css">
+  <link rel="icon" href="/support/assets/brand/logo.svg" type="image/svg+xml">
+  <link rel="icon" href="/support/assets/brand/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/support/assets/brand/apple-touch-icon.png">
+  <script src="/support/drag-number/store.js" defer></script>
+  <script src="/support/omok/store.js" defer></script>
+  <script src="/support/assets/store.js" defer></script>
 </head>
-<body>
-<p><a href="/support/">https://duruwap.github.io/support/</a></p>
+<body class="home-page">
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="?lang=ko" data-href="?lang={lang}"><svg class="brand-mark" viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="22" fill="#2F4BE0"/><path fill="#fff" fill-rule="evenodd" d="M24 24h21a26 26 0 0 1 0 52H24zM37 39h8a11 11 0 0 1 0 22h-8z"/><circle cx="79" cy="72" r="5.5" fill="#FFD43B"/></svg>duruwap</a>
+    <nav class="langs" aria-label="Language">
+      <a href="?lang=ko" hreflang="ko" lang="ko" data-lang="ko" aria-current="page">한국어</a>
+      <a href="?lang=en" hreflang="en" lang="en" data-lang="en">English</a>
+      <a href="?lang=zh" hreflang="zh" lang="zh" data-lang="zh">中文</a>
+      <a href="?lang=ja" hreflang="ja" lang="ja" data-lang="ja">日本語</a>
+    </nav>
+  </div>
+</header>
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <svg class="hero-mark" viewBox="0 0 100 100" aria-hidden="true"><path d="M28 22H50A28 28 0 0 1 50 78H28Z" fill="#fff"/><path d="M42 38H50A12 12 0 0 1 50 62H42Z" fill="#2F4BE0"/><circle cx="84" cy="74" r="5" fill="#FFD43B"/></svg>
+    <div>
+      <h1 id="hero-title">Duruwap</h1>
+      <p data-t="intro">일상을 조금 더 편하게 만드는 심플한 앱을 만듭니다. 깔끔한 디자인, 꼭 필요한 기능만.</p>
+    </div>
+  </div>
+</section>
+<main class="wrap home">
+  <p class="list-label" data-t="apps">앱</p>
+  <ul class="home-apps">
+    <li class="home-app">
+      <a class="home-app-head" href="/support/drag-number/?lang=ko" data-href="/support/drag-number/?lang={lang}">
+        <img class="app-icon" src="/support/assets/apps/drag-number.svg" alt="" width="64" height="64">
+        <span><span class="title" data-t="drag-number.name">드래그 넘버</span><span class="sub" data-t="drag-number.tagline">네모를 그려 합을 맞추면 팡! 숫자 퍼즐</span></span>
+      </a>
+      <div class="store-links" data-app="drag-number" hidden><a class="store-btn" data-store="appStore" href="#" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.37 12.6c-.02-2.2 1.8-3.26 1.88-3.31-1.03-1.5-2.62-1.7-3.18-1.73-1.35-.14-2.64.8-3.33.8-.69 0-1.74-.78-2.86-.76-1.47.02-2.83.86-3.59 2.17-1.53 2.66-.39 6.6 1.1 8.75.73 1.05 1.6 2.24 2.73 2.2 1.1-.05 1.51-.71 2.84-.71 1.32 0 1.7.71 2.86.69 1.18-.02 1.93-1.07 2.65-2.13.84-1.22 1.18-2.4 1.2-2.46-.03-.01-2.3-.88-2.32-3.5zM14.2 6.13c.6-.73 1.01-1.75.9-2.76-.87.03-1.92.58-2.54 1.31-.56.64-1.05 1.67-.92 2.66.97.08 1.96-.49 2.56-1.21z"/></svg><span><small data-t="dl_ios">App Store에서</small><b>App Store</b></span></a><a class="store-btn" data-store="googlePlay" href="#" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.2 2.5c-.25.27-.4.68-.4 1.2v16.6c0 .52.15.93.4 1.2l.07.06 9.3-9.3v-.22l-9.3-9.3-.07.06zM16.67 15.37l-3.1-3.1v-.22l3.1-3.1.07.04 3.67 2.09c1.05.6 1.05 1.57 0 2.17l-3.67 2.08-.07.04zM16.74 15.33 13.57 12.16 4.2 21.5c.35.37.92.41 1.57.05l10.97-6.22M16.74 8.99 5.77 2.77C5.12 2.4 4.55 2.45 4.2 2.82l9.37 9.37 3.17-3.2z"/></svg><span><small data-t="dl_android">Google Play에서</small><b>Google Play</b></span></a></div>
+      <nav class="home-docs"><a href="/support/drag-number/privacy/ko.html" data-href="/support/drag-number/privacy/{lang}.html" data-files="zh=cn ja=jp" data-t="privacy">개인정보 처리방침</a><a href="/support/drag-number/support/ko.html" data-href="/support/drag-number/support/{lang}.html" data-langs="ko en" data-t="support">고객 지원</a></nav>
+    </li>
+    <li class="home-app">
+      <a class="home-app-head" href="/support/omok/?lang=ko" data-href="/support/omok/?lang={lang}">
+        <img class="app-icon" src="/support/assets/apps/omok.svg" alt="" width="64" height="64">
+        <span><span class="title" data-t="omok.name">일색오목</span><span class="sub" data-t="omok.tagline">두는 순간 색이 사라지는 유리돌 오목</span></span>
+      </a>
+      <div class="store-links" data-app="omok" hidden><a class="store-btn" data-store="appStore" href="#" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.37 12.6c-.02-2.2 1.8-3.26 1.88-3.31-1.03-1.5-2.62-1.7-3.18-1.73-1.35-.14-2.64.8-3.33.8-.69 0-1.74-.78-2.86-.76-1.47.02-2.83.86-3.59 2.17-1.53 2.66-.39 6.6 1.1 8.75.73 1.05 1.6 2.24 2.73 2.2 1.1-.05 1.51-.71 2.84-.71 1.32 0 1.7.71 2.86.69 1.18-.02 1.93-1.07 2.65-2.13.84-1.22 1.18-2.4 1.2-2.46-.03-.01-2.3-.88-2.32-3.5zM14.2 6.13c.6-.73 1.01-1.75.9-2.76-.87.03-1.92.58-2.54 1.31-.56.64-1.05 1.67-.92 2.66.97.08 1.96-.49 2.56-1.21z"/></svg><span><small data-t="dl_ios">App Store에서</small><b>App Store</b></span></a><a class="store-btn" data-store="googlePlay" href="#" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.2 2.5c-.25.27-.4.68-.4 1.2v16.6c0 .52.15.93.4 1.2l.07.06 9.3-9.3v-.22l-9.3-9.3-.07.06zM16.67 15.37l-3.1-3.1v-.22l3.1-3.1.07.04 3.67 2.09c1.05.6 1.05 1.57 0 2.17l-3.67 2.08-.07.04zM16.74 15.33 13.57 12.16 4.2 21.5c.35.37.92.41 1.57.05l10.97-6.22M16.74 8.99 5.77 2.77C5.12 2.4 4.55 2.45 4.2 2.82l9.37 9.37 3.17-3.2z"/></svg><span><small data-t="dl_android">Google Play에서</small><b>Google Play</b></span></a></div>
+      <nav class="home-docs"><a href="/support/omok/privacy/ko.html" data-href="/support/omok/privacy/{lang}.html" data-t="privacy">개인정보 처리방침</a><a href="/support/omok/support/ko.html" data-href="/support/omok/support/{lang}.html" data-t="support">고객 지원</a></nav>
+    </li>
+  </ul>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 duruwap studio</span>
+    <span class="footer-links"><a href="/support/?lang=ko" data-href="/support/?lang={lang}" data-t="all_support">앱 지원</a><a href="mailto:duruwap@naver.com">duruwap@naver.com</a></span>
+  </div>
+</footer>
+<script>window.I18N = {"ko":{"title":"Duruwap — 일상을 위한 심플한 앱","intro":"일상을 조금 더 편하게 만드는 심플한 앱을 만듭니다. 깔끔한 디자인, 꼭 필요한 기능만.","apps":"앱","privacy":"개인정보 처리방침","support":"고객 지원","all_support":"앱 지원","dl_ios":"App Store에서","dl_android":"Google Play에서","drag-number.name":"드래그 넘버","omok.name":"일색오목","drag-number.tagline":"네모를 그려 합을 맞추면 팡! 숫자 퍼즐","omok.tagline":"두는 순간 색이 사라지는 유리돌 오목"},"en":{"title":"Duruwap — Simple apps for everyday life","intro":"Simple, thoughtful apps that make everyday life a little easier. Clean design, just the tools you actually need.","apps":"Apps","privacy":"Privacy Policy","support":"Support","all_support":"App Support","dl_ios":"Download on the","dl_android":"Get it on","drag-number.name":"Drag Number","omok.name":"One-Color Gomoku","drag-number.tagline":"Draw a box, match the sum, pop! A number puzzle","omok.tagline":"Gomoku with stones that turn to clear glass"},"zh":{"title":"Duruwap — 为日常生活打造的简洁应用","intro":"我们打造简洁、贴心的应用，让日常生活更轻松一点。干净的设计，只留真正需要的功能。","apps":"应用","privacy":"隐私政策","support":"客户支持","all_support":"应用支持","dl_ios":"下载于","dl_android":"下载于","drag-number.name":"拖拽数字","omok.name":"一色五子棋","drag-number.tagline":"框出数字，凑够目标就消除！数字益智游戏","omok.tagline":"落子瞬间颜色就消失的玻璃五子棋"},"ja":{"title":"Duruwap — 毎日のためのシンプルなアプリ","intro":"毎日を少しだけ便利にする、シンプルで丁寧なアプリを作っています。すっきりしたデザインに、本当に必要な機能だけ。","apps":"アプリ","privacy":"プライバシーポリシー","support":"サポート","all_support":"アプリサポート","dl_ios":"ダウンロード","dl_android":"手に入れよう","drag-number.name":"ドラッグナンバー","omok.name":"一色五目並べ","drag-number.tagline":"四角で囲んで合計を合わせたらポン！数字パズル","omok.tagline":"置いた瞬間に色が消えるガラス石の五目並べ"}};</script>
+<script src="/support/assets/i18n.js"></script>
 </body>
 </html>
