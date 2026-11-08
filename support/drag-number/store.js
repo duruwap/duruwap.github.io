@@ -2,7 +2,7 @@
 // 빈 문자열이면 버튼에 '출시 예정'이 겹쳐 보이고, 누르면 안내 창이 뜬다.
 window.APP_STORE_LINKS = window.APP_STORE_LINKS || {};
 window.APP_STORE_LINKS["drag-number"] = {
-  appStore: "",    // 예: "https://apps.apple.com/app/id0000000000"
+  appStore: "https://apps.apple.com/app/id6826219961",
   googlePlay: ""   // 예: "https://play.google.com/store/apps/details?id=패키지명"
 };
 window.STORE_APP = "drag-number";
