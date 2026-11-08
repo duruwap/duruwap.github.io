@@ -24,7 +24,7 @@ app-support/    리다이렉트 전용. 예전 주소 /app-support/… 를 같�
 ## 브랜드 이미지
 
 `support/assets/brand/`: `logo.svg`(파비콘), `favicon-32.png`, `apple-touch-icon.png`, `icon-512.png`, `og-image.png`(링크 미리보기 1200×630).
-머리글의 로고는 각 HTML에 SVG로 직접 들어 있습니다. 첫 화면 앱 아이콘은 `support/assets/apps/<앱>.svg`이며, 실제 앱 아이콘 파일로 바꿔도 됩니다.
+머리글의 로고는 각 HTML에 SVG로 직접 들어 있습니다. 첫 화면 앱 아이콘은 `support/assets/apps/<앱>.png`(256×256, 실제 앱 아이콘)입니다.
 
 ## 앱별 문서 주소
 
